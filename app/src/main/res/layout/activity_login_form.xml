@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.uptech.newpharma.login_form"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:background="@color/darkblue"
+        
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textColor="#fff"
+            android:text="Welcome to Pharma"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="application pharma can connect you with the nearst pharmacy to make order or show the best route and more features can you descover with the application"
+            android:textSize="14sp"
+            android:layout_marginTop="15dp"
+            />
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+                <Button
+
+                    android:id="@+id/logbt1"
+                    android:layout_margin="5dp"
+                    android:textColor="#fff"
+                    android:background="@drawable/buttonstylepinkround"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Learn more"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+
+                    />
+
+                <Button
+                    android:id="@+id/logbt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/buttonstyleblueround"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:text="Join Us"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/log_username"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Usename"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:drawablePadding="4dp"
+            android:drawableTint="#808080"
+            />
+    `   `
+
+        <EditText
+            android:id="@+id/log_password"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:drawablePadding="4dp"
+            android:drawableTint="#808080"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/logbt3"
+            android:layout_marginTop="12dp"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstylepinkround"
+            android:text="LOGIN"
+            android:textColor="#fff"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

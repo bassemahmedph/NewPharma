@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "112022195873",
+    "firebase_url": "https://newpharma-79697.firebaseio.com",
+    "project_id": "newpharma-79697",
+    "storage_bucket": "newpharma-79697.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112022195873:android:12a190bf02d98aa8",
+        "android_client_info": {
+          "package_name": "com.example.uptech.newpharma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112022195873-sgl0oboqjubg1ulmo608lep7gj7o7dj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV3du-4cg38doUcexYM0F5Q2wgZYA4Rbg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

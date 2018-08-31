@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.uptech.newpharma.common_desaes.Inside_card_common_diseases">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/logoofpharmacy"
+                    />
+                <TextView
+                    android:id="@+id/name_inside"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkblue"
+                    />
+                <TextView
+                    android:id="@+id/Description_inside"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:padding="10dp"
+                    android:background="@color/lightgrayline"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+            </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
